@@ -36,7 +36,6 @@ public class GameManager : MonoBehaviour
     public UnityEvent OnNewRoundStarted = new UnityEvent();
     public UnityEvent OnRoundEnded = new UnityEvent();
     public AudioSource defaultMusic;
-    public AudioSource epicMusic;
 
     private void Awake()
     {
@@ -96,11 +95,7 @@ public class GameManager : MonoBehaviour
         titleText.transform.DOScale(1f,1f).From(0f);
         yield return new WaitForSeconds(.9f);
         titleText.transform.DOScale(0f,.5f);
-        if (globalRound == 3)
-        {
-            defaultMusic.Pause();
-            epicMusic.Play();
-        }
+ 
         gameRunning = true;
         OnNewRoundStarted?.Invoke();
         fishSpawner.StartSpawning();

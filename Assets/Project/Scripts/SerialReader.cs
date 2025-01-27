@@ -21,7 +21,16 @@ public class SerialReader : MonoBehaviour {
     public float value2 = 0f;
     public float value3 = 0f;
     public float value4 = 0f;
+    public bool useGyroscope = false;
     void Start () {
+
+        if (PlayerPrefs.GetInt("GyroscopeEnabled", 0) == 0)
+        {
+            useGyroscope = false;
+            return;
+        }
+
+        useGyroscope = true;
         portName = GlobalConfig.serialPortName;
         // Open Serial port
         arduinoSerial = new SerialPort (portName, baudRate);
@@ -33,7 +42,8 @@ public class SerialReader : MonoBehaviour {
     }
 
     void Update() {
-        ReadFromArduino ();
+        if(useGyroscope)
+            ReadFromArduino ();
     }
 
     private void ReadFromArduino () {

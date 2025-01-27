@@ -36,6 +36,7 @@ public class FishMovement : MonoBehaviour
     private void Start()
     {
         cam = Camera.main;
+        controlType = PlayerPrefs.GetInt("GyroscopeEnabled",0) == 1 ? ControlType.arduino : ControlType.wasd;
     }
 
     void Update()

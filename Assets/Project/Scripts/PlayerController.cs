@@ -222,11 +222,11 @@ public class PlayerController : MonoBehaviour
         float rightBound = cam.ViewportToWorldPoint(Vector3.right).x;
 
         var pos = transform.position;
-        if (Input.GetKey(KeyCode.A ) || serialReader.value3 < 450)
+        if (Input.GetKey(KeyCode.A ) || (serialReader.value3 < 450 && serialReader.useGyroscope))
         {
             pos += Vector3.left * (Time.deltaTime * moveSpeed);
         }
-        else if (Input.GetKey(KeyCode.D) || serialReader.value3 > 600)
+        else if (Input.GetKey(KeyCode.D) || (serialReader.value3 > 600 && serialReader.useGyroscope))
         {
             pos += Vector3.right * (Time.deltaTime * moveSpeed);
         }
