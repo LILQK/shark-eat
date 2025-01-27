@@ -1,5 +1,9 @@
 # Shark'eat — Source Code
 
+##Play the game!
+Here you can play the game on your browser.
+[Link](https://lil-qk.itch.io/sharkeat)
+
 This repository contains the source code (and possibly assets) for **Shark'Eat**, originally created during [Global Game Jam 2025]. The primary purpose of making this code available is **for educational and reference use only**.
 
 ## Important Notice
