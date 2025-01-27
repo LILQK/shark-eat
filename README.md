@@ -1,6 +1,6 @@
 # Shark'eat — Source Code
 
-##Play the game!
+## Play the game!
 Here you can play the game on your browser.
 [Link](https://lil-qk.itch.io/sharkeat)
 
