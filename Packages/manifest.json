@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.bnco.unity-webgl-microphone": "https://github.com/bnco-dev/unity-webgl-microphone.git",
     "com.unity.collab-proxy": "2.6.0",
     "com.unity.feature.2d": "2.0.1",
     "com.unity.ide.rider": "3.0.34",
