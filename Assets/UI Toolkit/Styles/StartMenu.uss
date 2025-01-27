@@ -1,0 +1,9 @@
+.start-label {
+    font-size: 36px;
+    color: var(--white-color);
+    -unity-font-style: bold;
+}
+
+.start-menu {
+    background-image: url("project://database/Assets/Images/MainMenuBackground.jpg?fileID=6850352397346096737&guid=d3716504f6b954ce6b0200f87270d6ff&type=3#MainMenuBackground_0");
+}

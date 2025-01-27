@@ -1,0 +1,47 @@
+.music-controls {
+    flex-direction: row;
+    align-items: center;
+    align-content: auto;
+    align-self: auto;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+.settings-menu__title {
+    margin-bottom: 100px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.slider {
+}
+
+.settings-section__title {
+    border-bottom-width: 2px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    padding-bottom: 8px;
+    font-size: 24px;
+    -unity-font-style: bold;
+}
+
+.settings-section {
+}
+
+.settings-section__title {
+    border-bottom-width: 2px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    padding-bottom: 8px;
+    font-size: 24px;
+    -unity-font-style: bold;
+}
+
+.back-button {
+    padding-top: 0;
+    margin-top: 32px;
+}

@@ -1,0 +1,23 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/SettingsMenu.uss?fileID=7433441132597879392&amp;guid=43f913cd9d2ad447dab77eb07e1cdd77&amp;type=3#SettingsMenu" />
+    <engine:VisualElement name="settings-menu" class="settings-menu ui-screen" style="top: 0; left: 0; background-image: url(&quot;project://database/Assets/Project/Sprites/Settings.png?fileID=7886631795410796208&amp;guid=aeb17f5864051004dbf5955e61f60cf4&amp;type=3#Settings_0&quot;); -unity-background-scale-mode: scale-to-fit;">
+        <engine:Label text="Settings Menu" name="settings-menu-title" class="settings-menu__title" />
+        <engine:VisualElement class="controls-container">
+            <engine:VisualElement name="music-section" class="settings-section" style="flex-grow: 1;">
+                <engine:Label text="Music" class="music-section__title settings-section__title" />
+                <engine:VisualElement name="VisualElement" class="music-controls" style="flex-grow: 1;">
+                    <engine:Slider value="0" high-value="100" show-input-field="false" inverted="false" name="volume-slider" fill="false" class="slider" style="width: auto;" />
+                    <engine:Toggle name="toggle-music" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="controls-section" style="flex-grow: 1;">
+                <engine:Label text="Controls" class="settings-section__title" />
+                <engine:VisualElement class="music-controls" style="flex-grow: 1;">
+                    <engine:Label text="Activate Gyroscope" />
+                    <engine:Toggle value="false" name="toggle-gyroscope" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:Button name="back-button" text="Back" class="settings-menu__button back-button" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

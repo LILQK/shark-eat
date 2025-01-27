@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="main-menu" class="main-menu ui-screen" style="background-image: url(&quot;project://database/Assets/Project/Sprites/Menu.png?fileID=-198938125430884413&amp;guid=14c8006987886044ca19e3dc47899454&amp;type=3#Menu_0&quot;); -unity-background-scale-mode: scale-to-fit;">
+        <engine:Button name="start-button" text="Start" class="main-menu__button start-button" />
+        <engine:Button name="settings-button" text="Settings" class="main-menu__button settings-button" />
+        <engine:Button name="quit-button" text="Quit" class="main-menu__button quit-button" />
+        <engine:TextField label="Serial Port" placeholder-text="COM8" name="serialport" />
+    </engine:VisualElement>
+</engine:UXML>

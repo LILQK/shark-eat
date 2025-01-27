@@ -1,0 +1,69 @@
+:root{
+    --black-color: #111;
+    --white-color: #fff;
+    --blue-color: blue;
+}
+
+.ui-screen {
+    width: 100%;
+    height: 100%; 
+    position: absolute; 
+    -unity-background-image-tint-color: rgb(255, 255, 255); 
+    background-color: rgb(25, 25, 25); 
+    align-items: center; 
+    justify-content: 
+    center; 
+    top: 0; 
+    left: 0;
+}
+
+.controls-container {
+    flex-direction:column;
+}
+
+
+Slider{
+    min-width: 200px;
+    align-items: center;
+}
+
+.unity-slider__label{
+    min-width: auto;
+}
+
+#main-menu Button:hover{
+    background-color: transparent;
+    color: #afafaf;
+}
+
+#main-menu Button{
+    font-size: 40px;
+    border-width: 0;
+    background-color: transparent;
+    color: #303030;
+}
+
+
+#settings-menu Button{
+    font-size: 40px;
+    border-width: 0;
+    background-color: transparent;
+}
+
+#settings-menu Button:hover{
+    background-color: transparent;
+    color: #afafaf;
+    font-size: 40px;
+}
+
+#settings-menu *{
+    color: #303030;
+}
+
+#serialport{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 18;
+}
+
