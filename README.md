@@ -44,7 +44,7 @@ We worked hard AND had a blast! 🤪🕹️
 After the **Shark Round** ends, **players swap roles**. The former shark becomes the cannon, and vice versa. High score wins! 🎉
 
 <p align="center">
-  <img src="https://via.placeholder.com/700x400?text=Gameplay+Screenshot+1" alt="Shark Gameplay" width="700">
+  <img src="https://i.imgur.com/HCAX2cP.png" alt="Shark Gameplay" width="700">
 </p>
 
 ---
