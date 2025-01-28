@@ -134,17 +134,17 @@ Check out a few more shots of our wacky prototypes and in-game madness:
 
 1. **3D-printed fish controller**  
    <p align="center">
-     <img src="https://via.placeholder.com/400x300?text=3D+Printed+Fish" alt="3D Printed Fish" width="400">
+     <img src="https://i.imgur.com/l4VQZWN.png" alt="3D Printed Fish" width="400">
    </p>
 
 2. **Bubble Cannon joystick + mic**  
    <p align="center">
-     <img src="https://via.placeholder.com/400x300?text=Bubble+Cannon+Joystick" alt="Bubble Cannon Joystick" width="400">
+     <img src="https://i.imgur.com/aJ7aHJY.png" alt="Bubble Cannon Joystick" width="400">
    </p>
 
-3. **In-game scoreboard & UI**  
+3. **In-game**  
    <p align="center">
-     <img src="https://via.placeholder.com/400x300?text=Scoreboard+UI" alt="Scoreboard UI" width="400">
+     <img src="https://i.imgur.com/7ljahLt.png" alt="Scoreboard UI" width="400">
    </p>
 
 *(We might have an unhealthy obsession with fish...)* 🐠🐡🐟
