@@ -1,7 +1,7 @@
 # Shark'Eat! 🦈🍴
 
 <p align="center">
-  <img src="https://via.placeholder.com/600x300?text=Shark+Eat+Logo" alt="Shark Eat Logo" width="600">
+  <img src="https://imgur.com/jmGvCG5" alt="Shark Eat Logo" width="600">
 </p>
 
 ## 🏆 Awards & Team Shout-Out
