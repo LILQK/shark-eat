@@ -124,7 +124,7 @@ All art, from sharks to fishies to UI elements, was **created by our team**! Spe
 - **@mariacarolinalopez (Instagram)** for the original soundtrack! 🎶  
 
 <p align="center">
-  <img src="https://via.placeholder.com/600x400?text=Art+Concepts" alt="Art Concepts" width="600">
+  <img src="https://i.imgur.com/SiUYNM4.png" alt="Art Concepts" width="600">
 </p>
 
 ---
