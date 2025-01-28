@@ -20,6 +20,7 @@ And it’s all thanks to our awesome team:
 
 We worked hard AND had a blast! 🤪🕹️
 
+*Play the web version!* [Follow this link](https://lil-qk.itch.io/sharkeat)
 ---
 
 ## Table of Contents
